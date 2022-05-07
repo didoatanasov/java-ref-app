@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//hstdbtst15.ucb.lan:1522/tochl.ucb.lan
+redisUrl: http://digital-redis:8080/redis
+
+baseURLs:
+  esb: https://bgsesbappt01.ucb.lan:7843/
+  esb2: https://bgsesbappt02.ucb.lan:7843/
+  userProfileService: https://pkg-user-profile-dev.apps.ocp.ibsbg.bg
+  ibanManager: https://pkg-iban-manager-dev.apps.ocp.ibsbg.bg/
+  digitalClient: https://digital-client-ucb-dev.apps.ocp.ibsbg.bg/
+  documentOrchestrationService: https://pkg-document-orch-dev.apps.ocp.ibsbg.bg
+
+app:
+  metadata:
+    url: http://localhost:8080
+
+appRegisterUrl: https://app-register-test.apps.ocp.ibsbg.bg
+translationsUrl: http://digital-translations:8080/translations

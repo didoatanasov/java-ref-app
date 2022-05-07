@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//hstdbtst15.ucb.lan:1522/tochl.ucb.lan
+redisUrl: https://digital-redis-test.apps.ocp.ibsbg.bg/redis
+
+baseURLs:
+  esb: https://apigatetst.unicreditbulbank.bg/test/internal/
+  userProfileService: https://apigatetst.unicreditbulbank.bg/test/internal
+  ibanManager: https://apigatetst.unicreditbulbank.bg/test/internal/
+  digitalClient: http://digital-client-ucb:8080/
+  documentOrchestrationService: https://apigatetst.unicreditbulbank.bg/test/internal
+
+app:
+  metadata:
+    url: http://localhost:8080
+
+appRegisterUrl: https://apigatetst.unicreditbulbank.bg/test/internal
+translationsUrl: http://digital-translations:8080/translations
+

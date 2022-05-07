@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//buldbcl01.ucb.lan:1523/pochl.ucb.lan
+  liquibase:
+    enabled: false
+redisUrl: http://digital-redis:8080/redis
+
+baseURLs:
+  esb: https://apigate.unicreditbulbank.bg/prod/internal/
+  userProfileService: https://apigate.unicreditbulbank.bg/prod/internal
+  ibanManager: https://apigate.unicreditbulbank.bg/prod/internal/
+  digitalClient: http://digital-client-ucb:8080/
+  documentOrchestrationService: https://apigate.unicreditbulbank.bg/prod/internal
+
+app:
+  metadata:
+    url: http://localhost:8080
+
+appRegisterUrl: https://apigate.unicreditbulbank.bg/prod/internal
+translationsUrl: http://digital-translations:8080/translations
