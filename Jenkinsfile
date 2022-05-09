@@ -37,7 +37,7 @@ pipeline {
                         script {
                             switch (ENVIRONMENT) {
                                 case 'development':
-                                    openshiftProject = 'dev-refapps'
+                                    openshiftProject = 'borica-poc'
                                     valuesFile = 'values_dev.yaml'
                                     openshiftAPIEndpoint = ['ocp.ibsbg.bg']
                                     break;
@@ -57,7 +57,7 @@ pipeline {
                                     openshiftAPIEndpoint = ['ocp.ibsbg.bg']
                                     break
                                 default:
-                                    openshiftProject = 'dev-omni-fe'
+                                    openshiftProject = 'borica-poc'
                                     valuesFile = 'values_dev.yaml'
                                     openshiftAPIEndpoint = ['ocp.ibsbg.bg']
 

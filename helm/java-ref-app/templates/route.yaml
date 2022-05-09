@@ -3,7 +3,6 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: {{ .Values.service.name }}-route
-  namespace: {{.Values.configuration.env}}-omni-fe
   labels:
     {{- include "java-ref-app.labels" . | nindent 4 }}
 spec:
