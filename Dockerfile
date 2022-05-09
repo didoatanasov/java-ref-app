@@ -4,7 +4,7 @@ ADD  . .
 
 RUN mvn  clean package
 
-FROM openjdk:11
+FROM azul/zulu-openjdk-alpine:11
 ENV MICROSERVICE_NAME=java-ref-app
 RUN mkdir -p /app/logs /app/config && chmod -R a+rw  /app
 WORKDIR /app
