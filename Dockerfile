@@ -11,4 +11,4 @@ WORKDIR /app
 ARG JAR_FILE=target/*.jar
 COPY --from=build  ${JAR_FILE} java-ref-app.jar
 
-ENTRYPOINT ["java","-Dspring.profiles.active=none","-jar","/app/digital-packages-api.jar"]
+ENTRYPOINT ["java","-Dspring.profiles.active=none","-jar","/app/java-ref-app.jar"]

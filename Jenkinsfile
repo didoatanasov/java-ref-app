@@ -1,5 +1,5 @@
 def applicationName = "java-ref-app"
-def openshiftProject = "omni-fe"
+def openshiftProject = "borica-poc"
 def registry = "registry.ibs.bg:6001/repository/docker"
 def valuesFile = ""
 def tag
